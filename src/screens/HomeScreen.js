@@ -17,6 +17,15 @@ const HomeScreen = ({ navigation }) => {
         title="Masuk ke Image Screen"
         onPress={() => navigation.navigate("Image")}
       />
+
+      <Button
+        title="Masuk ke Counter Screen"
+        onPress={() => navigation.navigate("Counter")}
+      />
+      <Button
+        title="Masuk ke Color Screen"
+        onPress={() => navigation.navigate("Color")}
+      />
     </View>
   );
 };
