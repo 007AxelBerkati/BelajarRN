@@ -36,6 +36,21 @@ const HomeScreen = ({ navigation }) => {
         title="Masuk ke Square Screen"
         onPress={() => navigation.navigate("Square")}
       />
+      <Gap height={20} width={20} />
+      <Button
+        title="Masuk ke Text Screen"
+        onPress={() => navigation.navigate("Text")}
+      />
+      <Gap height={20} width={20} />
+      <Button
+        title="Masuk ke Box Screen"
+        onPress={() => navigation.navigate("Box")}
+      />
+      <Gap height={20} width={20} />
+      <Button
+        title="Masuk ke Box Exercise Screen"
+        onPress={() => navigation.navigate("BoxExercise")}
+      />
     </View>
   );
 };
